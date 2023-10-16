@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    column-gap: 16px;
+    padding: 8px 16px;
+}
+
+.row a {
+    color: #adbac7;
+    text-decoration: none;
+}
+
+.row svg {
+    fill: #768390
+}
+
+body {
+    background-color: #22272e00;
+    color: #adbac7;
+}
+
+.fileList {
+    border-radius: 5px;
+}
+
+.row:not(:last-child) {
+    border-bottom: 1px solid #444c56;
+}
